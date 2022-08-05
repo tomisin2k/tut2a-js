@@ -1,0 +1,89 @@
+body {
+  margin: 20px;
+  padding: 50px 50px 50px 15px;
+}
+/*styling for image*/
+img {
+  width: 400px;
+  text-align: center;
+
+}
+/*styling for header*/
+h1 {
+  font-size: 156.25%;
+}
+/* first div*/
+.titlePage1 {
+  text-align: center;
+
+}
+/* second div */
+.titlePage2 {
+  box-shadow: 0 0 13px 0 silver;
+  padding: 30px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+/* input field for client's details*/
+input {
+  width: 100%;
+  margin: 10px 0 10px
+}
+/* log in button */
+button {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 0 5px;
+  color: white;
+}
+
+.button2:hover {
+  background-color: #2B7A0B;
+}
+
+p:hover {
+  color: "blue";
+}
+/* paragraph*/
+p {
+  text-align: center;
+}
+/*header*/
+h2 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 81.25%;
+  text-align: center;
+
+}
+/* log in button*/
+.button1 {
+  background-color: #008CBA;
+}
+/*create new password log in*/
+.button2 {
+  background-color: #4CAF50;
+}
+
+.button1:hover {
+  background-color: #0078AA;
+}
+/* responsible for mobile responsiveness*/
+@media (max-width: 768px) {
+
+h1 {
+  font-size: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 20px
+}
+img {
+  width: 100%;
+}
+
+
+
+}
